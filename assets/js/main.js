@@ -31,18 +31,6 @@ $(document).ready(function () {
             $(".navbar-fixed-top").css("background-color", "transparent");
         }
     });
-
-    // Type Writer
-    $(".type").typed({
-        strings: ["Welcome To JiosDev"],
-        typeSpeed: 100,
-        backDelay: 800,
-        loop: false,
-        showCursor: true,
-        cursorChar: '|',
-        autoInsertCss: true,
-    });
-    // Testimonials
     //Set the carousel options
     $('#quote-carousel').carousel({
         pause: true,
