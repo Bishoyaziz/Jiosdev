@@ -1,0 +1,50 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+body {
+    background: $white;
+    font-family: 'Poppins', sans-serif;    
+    overflow-x: hidden !important;
+    color: $main-color;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    @media(max-width: 767px) {
+        * {
+            text-align: center;
+        }
+    }
+}
+// Global Style
+.main-heading{    
+    h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+    h3::before {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        content: "";
+        height: 1px;
+        width: 38px;
+    }
+}hr {
+    width: 100px;
+}
+}
+#our-services,#about-us,#choose-us,#testimonials,#news,#contact-us{
+    padding: 100px 0;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #242425;    
+}
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: $main-color;
+}
+// End Global Style

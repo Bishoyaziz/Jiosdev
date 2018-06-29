@@ -1,0 +1,31 @@
+#news {
+    @media(min-width: 768px) and(max-width: 991px) {
+        text-align: center;        
+    }
+    img {
+        width: 100%;
+        border-radius: 50px 1px; 
+        &:hover {
+            border-radius: 1px 50px;  
+            transition: ease-in 0.3s;      
+        }        
+    }
+       
+    .blog {
+        @media(max-width: 768px) {
+            margin: auto;
+            text-align: center;
+        }
+        @media(min-width: 769px) and (max-width: 991px) {
+            text-align: center;
+            margin: auto;
+        }
+        h3 {
+            text-transform: uppercase;
+            font-size: 19px;
+        }
+        p {
+            margin-top: 20px;
+        }
+    }
+}

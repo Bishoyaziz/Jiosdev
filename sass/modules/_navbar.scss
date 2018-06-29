@@ -1,0 +1,33 @@
+// Navbar
+
+.custom-navbar {
+    padding: 0 10px;
+    a.navbar-brand {
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    a {
+        color: $white;
+        background: transparent;
+    }
+    .nav {
+        li {
+            a {
+                &:hover {
+                    background: #000;
+                }
+                &:focus {
+                    background: #333;
+                }
+            }
+        }
+    }
+    .navbar-toggle {
+        background: #fff;
+        margin-top: 10px;
+        span.icon-bar {
+            background-color: $secondary-color;
+        }
+    }
+}

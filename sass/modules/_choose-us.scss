@@ -1,0 +1,11 @@
+#choose-us {
+    text-align: center;
+    background: #f3f3f3;
+    .choose-section {
+        margin-top: 50px;
+        padding: 30px;
+        &:hover {
+            box-shadow: 2px 4px 8px 0px rgba(7, 141, 249, 0.2);
+        }
+    }
+}
