@@ -40,7 +40,7 @@ $(document).ready(function () {
 });
 
 // Nicescroll and remove horizontal scroll
-$(function () {
+jQuery(function () {
     'use strict';
     $('body').niceScroll({
         horizrailenabled: false
